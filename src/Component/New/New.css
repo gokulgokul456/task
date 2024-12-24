@@ -1,0 +1,141 @@
+.news{
+    width: 100%;
+    height: 100%;
+    /* background-color: grey; */
+}
+.news-1{
+    width: 80%;
+    height: 20%;
+    /* background-color: red; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6px;
+}
+.news-1 h5{
+    color: grey;
+}
+.news-2{
+    width: 80%;
+    height: 80%;
+    /* background-color: rgb(137, 105, 105); */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+}
+.news-3{
+    width: 25%;
+    height: 80%;
+    background-color: white;
+    position: relative;
+
+}
+.news-4{
+    width: 100%;
+    height: 50%;
+    /* background-color: bisque; */
+}
+.news img{
+    width: 100%;
+    height: 100%;  
+}
+.news-5{
+    width: 80%;
+    height: 40%;
+    /* background-color: red; */
+    margin: 0 auto;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+.news-6{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 4px;
+    padding: 10px;
+}
+.news-7{
+    width: 100%;
+    height: 45%;
+    /* background-color: rgb(207, 110, 110); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.55)
+
+}
+.news-8{
+    width: 100%;
+    height: 3%;
+    background-color: rgb(67,172,215);
+}
+.news-9{
+    width: 25%;
+    height: 75%;
+    border-radius: 100%;
+    background-color: white;
+}
+.news-9 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-color: white;
+}
+
+@media (max-width: 768px) {
+    .news{
+        margin-bottom: 130%;
+    }
+    .news-1 {
+        width: 90%;
+        height: 25%;
+        gap: 8px;
+    }
+
+    .news-2 {
+        flex-direction: column;
+        gap: 20px;
+        height:150%;
+
+    }
+
+    .news-3 {
+        width: 90%;
+        /* background-color: red; */
+    }
+
+    .news-5 {
+        top: 45%;
+        left: 5%;
+        width: 90%;
+    }
+
+    .news-6 {
+        padding: 5px;
+        gap: 2px;
+    }
+
+    .news-7 {
+        display: flex;
+        gap: 50px;
+    }
+
+    .news-9 {
+        width: 20%;
+        height: 60%;
+    }
+    .news-9 img{
+        width: 100%;
+        height: 100%;
+    }
+}

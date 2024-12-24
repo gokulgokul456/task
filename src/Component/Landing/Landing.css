@@ -1,0 +1,305 @@
+.bgcolor{
+    width: 100%;
+    height: 100%;
+}
+.Bg{
+    width: 100%;
+    height: 80%;
+    background-color: aqua;
+    background-image: url(../../Assets/Images/Bg.jpg);
+    object-fit: cover;
+    position: relative;
+}
+.contact{
+    width: 75%;
+    height: 10%;
+    margin: 0 auto;
+    /* background-color: black; */
+    display: flex;
+}
+.cont-1{
+    width: 50%;
+    height: 100%;
+    /* background-color: grey; */
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: start;
+}
+.cont-1 h6{
+    font-weight: 300;
+}
+.cont-2{
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: start;
+}
+.cont-3{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 2%;
+}
+.cont-3 h4{
+    font-size: 13px;
+}
+.cont-4{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.btn{
+    height: 25px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color:rgb(89, 193, 234);
+    border-radius: 3px;
+}
+.btn h4{
+    font-size: 12px;
+}
+.btn h6{
+    font-size: 10px;
+}
+.Navbar{
+    width: 75%;
+    height: 13%;
+    margin: 0 auto;
+    background-color: rgba(247, 242, 242, 0.8);
+    opacity:1;
+    border-radius: 5px;
+    display: flex;
+}
+.Nav-1{
+    width: 60%;
+    height: 100%;
+    /* background-color: grey; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.Nav-1 img{
+    width: 150px;
+    height: 35px;
+    margin-left: 20px;
+}
+.Nav-2{
+    width: 40%;
+    height: 100%;
+    /* background-color: rgb(216, 29, 29); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+.Nav-2 :hover{
+    color: white;
+}
+.swipp{
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
+    /* background-color: black; */
+    display: flex;
+}
+.details{
+    width: 100%;
+    height: 55%;
+    background-color:rgb(4, 179, 248);
+}
+.details-1{
+    width: 80%;
+    height: 40%;
+    /* background-color: blueviolet; */
+    margin: 0 auto;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 25px;
+}
+.det-1{
+    width: 18%;
+    height: 35%;
+    background-color: white;
+    margin-bottom: 70px;
+    position: absolute;
+    top: 350px; 
+    left: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    gap: 10px;
+}
+.det-2{
+    width: 18%;
+    height: 35%;
+    background-color: white;
+    margin-bottom: 70px;
+    position: absolute;
+    top: 350px; 
+    left: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    gap: 10px;
+}
+.det-3{
+    width: 18%;
+    height: 35%;
+    background-color: white;
+    margin-bottom: 70px;
+    position: absolute;
+    top: 350px; 
+    left: 68%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    gap: 10px;
+}
+.details-2{
+    width: 75%;
+    height: 45%;
+    margin: 0 auto;
+    /* background-color: rgb(46, 65, 73); */
+    display: flex;
+   justify-content: space-between;
+   margin-top: 30px;
+}
+.del-1{
+    width: 27%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.del-2{
+    width: 27%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.del-3{
+    width: 27%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Mobile View CSS */
+@media only screen and (max-width: 768px) {
+    .bgcolor {
+        width: 100%;
+        height: auto;
+    }
+
+    .Bg {
+        height: 60%; 
+    }
+
+    .contact {
+        width: 90%;
+        height: 100%;
+        margin: 10px auto;
+        gap: 5px;
+    }
+
+    .cont-1, .cont-2, .cont-3, .cont-4 {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .Navbar {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        padding: 10px;
+        background-color:  rgba(247, 242, 242, 0.8);
+    }
+
+    .Nav-1 {
+        width: 20%;
+        height: 50px;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        
+    }
+    .Nav-2{
+        width: 80%;
+        display: flex;
+        gap: 5px;
+    }
+
+    .Nav-1 img {
+        width: 60px;
+        height: 20px;
+       margin-left: -1px;
+    }
+
+    .swipp {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .details {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .details-1 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .det-1, .det-2, .det-3 {
+        width: 90%;
+        height: auto;
+        position: static;
+        margin: 10px auto;
+    }
+
+    .details-2 {
+        width: 90%;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .del-1, .del-2, .del-3 {
+        width: 100%;
+    }
+
+    .btn {
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+}
+
+
+

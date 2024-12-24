@@ -1,0 +1,185 @@
+.foot{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(204,204,204);
+}
+.foot-1{
+    width: 75%;
+    height: 55%;
+    margin: 0 auto;
+    /* background-color: rgb(203, 119, 119); */
+    display: flex;
+    border-bottom: 1px solid grey;
+}
+.foot-2{
+    width: 75%;
+    height: 20%;
+    margin: 0 auto;
+    /* background-color: rgb(204, 51, 51); */
+    display: flex;
+}
+.foot-3{
+    width: 30%;
+    height: 100%;
+    /* background-color: plum; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+.foot-4{
+    width: 30%;
+    height: 100%;
+    /* background-color: rgb(151, 46, 151); */
+    display: flex;
+    flex-direction: column;
+}.foot-5{
+    width: 30%;
+    height: 100%;
+    /* background-color: rgb(82, 76, 82); */
+}.foot-6{
+    width: 30%;
+    height: 100%;
+    /* background-color: rgb(67, 23, 67); */
+    display: flex;
+    flex-direction: column;
+}
+.foot-7{
+    width: 100%;
+    height: 40%;
+    /* background-color: greenyellow; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.foot-7 img{
+    width: 60%;
+    height: 50%;
+}
+.foot-8{
+    width: 100%;
+    height: 50%;
+    /* background-color: red; */
+}
+.foot-9{
+    width: 100%;
+    height: 30%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.foot-11{
+    width: 100%;
+    height: 30%;
+    /* background-color: red; */
+    display: flex;
+}
+.foot-11 input{
+    width: 60%;
+    height: 35px;
+    background-color: rgb(165, 161, 161);
+    border: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.foot-11 button{
+    width: 30%;
+    height: 35px;
+    background-color: rgb(17,178,242);
+    border: none;
+    color: white;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.foot-12{
+    width: 100%;
+    height: 70%;
+    /* background-color: aqua; */
+    display: flex;
+}
+.foot-13{
+    width: 30%;
+    height: 100%;
+    /* color: grey; */
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 8px;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.foot-14{
+    width: 50%;
+    height: 100%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: grey;
+}
+.foot-15{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(77, 22, 22); */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    color: grey;
+}
+
+@media (max-width: 767px) {
+    .foot{
+        height: 100%;
+    }
+    .foot-1{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .foot-2{
+        height: 10%;
+        /* background-color: green; */
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .foot-2, .foot-3, .foot-4, .foot-5, .foot-6 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .foot-7 img {
+        width: 30%;
+        height: auto;
+    }
+   
+
+    .foot-11 input, .foot-11 button {
+        width: 100%;
+        height: 40px;
+    }
+
+    .foot-3, .foot-4, .foot-5, .foot-6 {
+        width: 100%;
+        height: 90%;
+        margin-top: 10px;
+    }
+    .foot-13 {
+        width: 100%;
+        height: 50px;
+    }
+    .foot-14, .foot-15{
+        width: 100%;
+        height: 5%;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
