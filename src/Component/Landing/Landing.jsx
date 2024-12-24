@@ -21,8 +21,8 @@ const Landing = () => {
     <div className='Bg'>
         <div className='contact'>
          <div className='cont-1'>
-                <h6><FaPhoneAlt />  +123-456-7890</h6>
-                <h6><IoIosMail  />  info@yourdomain.com</h6>
+                <h6><FaPhoneAlt />+123-456-7890</h6>
+                <h6><IoIosMail  />info@yourdomain.com</h6>
         </div>
         <div className='cont-2'>
                 <div className='cont-3'>
@@ -32,14 +32,13 @@ const Landing = () => {
                 <h4><FaLinkedinIn  /></h4>
         </div>
         <div className='cont-4'>
-                <div className='btn'>
+         <div className='btn'>
                 <h4><FaCalculator /></h4>
                 <h6>GET A QUOTE</h6>
         </div>
         </div>
         </div>
         </div>
-
         <div className='Navbar'>
             <div className='Nav-1'>
                 <img src={logo} alt="" />

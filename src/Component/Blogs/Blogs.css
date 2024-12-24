@@ -113,6 +113,7 @@
     .laundry-1 {
         flex-direction: column;
         height: auto;
+        
     }
 
     .laund-1 {
@@ -123,7 +124,7 @@
         width: 90%;
         left: 10%;
         height: auto;
-        top: 30%;
+        top: 20%;
         box-shadow: none;
     }
 

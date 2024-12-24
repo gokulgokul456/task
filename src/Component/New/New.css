@@ -94,23 +94,28 @@
 
 @media (max-width: 768px) {
     .news{
-        margin-bottom: 130%;
+        width: 100%;
+        height: auto;
+        /* margin-bottom: 130%; */
+        /* background-color: red; */
+        padding: 20px 0px
     }
     .news-1 {
         width: 90%;
-        height: 25%;
         gap: 8px;
+        /* background-color: yellow; */
     }
 
     .news-2 {
+        width: 100%;
         flex-direction: column;
         gap: 20px;
-        height:150%;
 
     }
 
     .news-3 {
         width: 90%;
+        height: 400px   ;
         /* background-color: red; */
     }
 

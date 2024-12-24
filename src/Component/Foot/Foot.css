@@ -132,7 +132,7 @@
 
 @media (max-width: 767px) {
     .foot{
-        height: 100%;
+        height: auto;
     }
     .foot-1{
         height: 100%;
